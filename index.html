@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Simple HTML / CSS / JavaScript Calendar</title>
+		<link rel="stylesheet" type="text/css" href="style.css" >
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="calendar">
+					<div id="date"></div><!-- This should show the Day, followed by the Number. Ex: 'Monday, the 13th' -->
+					<div id="month-name"></div><!-- Month Name -->
+					<div id="weekday-labels"><!-- Days of the Week -->
+						<div class="col1">S</div>
+						<div class="col2">M</div>
+						<div class="col3">T</div>
+						<div class="col4">W</div>
+						<div class="col5">T</div>
+						<div class="col6">F</div>
+						<div class="col7">S</div>
+					</div>
+					<div id="row-1">
+						<div id="slot-1" class="col1"></div><!-- Sunday -->
+						<div id="slot-2" class="col2"></div><!-- Monday -->
+						<div id="slot-3" class="col3"></div><!-- Tuesday -->
+						<div id="slot-4" class="col4"></div><!-- Wednesday -->
+						<div id="slot-5" class="col5"></div><!-- Thursday -->
+						<div id="slot-6" class="col6"></div><!-- Friday -->
+						<div id="slot-7" class="col7"></div><!-- Saturday -->
+					</div>
+					<div id="row-2">
+						<div id="slot-8" class="col1"></div><!-- Sunday -->
+						<div id="slot-9" class="col2"></div><!-- Monday -->
+						<div id="slot-10" class="col3"></div><!-- Tuesday -->
+						<div id="slot-11" class="col4"></div><!-- Wednesday -->
+						<div id="slot-12" class="col5"></div><!-- Thursday -->
+						<div id="slot-13" class="col6"></div><!-- Friday -->
+						<div id="slot-14" class="col7"></div><!-- Saturday -->
+					</div>
+					<div id="row-3">
+						<div id="slot-15" class="col1"></div><!-- Sunday -->
+						<div id="slot-16" class="col2"></div><!-- Monday -->
+						<div id="slot-17" class="col3"></div><!-- Tuesday -->
+						<div id="slot-18" class="col4"></div><!-- Wednesday -->
+						<div id="slot-19" class="col5"></div><!-- Thursday -->
+						<div id="slot-20" class="col6"></div><!-- Friday -->
+						<div id="slot-21" class="col7"></div><!-- Saturday -->
+					</div>
+					<div id="row-4">
+						<div id="slot-22" class="col1"></div><!-- Sunday -->
+						<div id="slot-23" class="col2"></div><!-- Monday -->
+						<div id="slot-24" class="col3"></div><!-- Tuesday -->
+						<div id="slot-25" class="col4"></div><!-- Wednesday -->
+						<div id="slot-26" class="col5"></div><!-- Thursday -->
+						<div id="slot-27" class="col6"></div><!-- Friday -->
+						<div id="slot-28" class="col7"></div><!-- Saturday -->
+					</div>
+					<div id="row-5">
+						<div id="slot-29" class="col1"></div><!-- Sunday -->
+						<div id="slot-30" class="col2"></div><!-- Monday -->
+						<div id="slot-31" class="col3"></div><!-- Tuesday -->
+						<div id="slot-32" class="col4"></div><!-- Wednesday -->
+						<div id="slot-33" class="col5"></div><!-- Thursday -->
+						<div id="slot-34" class="col6"></div><!-- Friday -->
+						<div id="slot-35" class="col7"></div><!-- Saturday -->
+					</div>
+					<div id="row-6">
+						<div id="slot-36" class="col1"></div><!-- Sunday -->
+						<div id="slot-37" class="col2"></div><!-- Monday -->
+						<div id="slot-38" class="col3"></div><!-- Tuesday -->
+						<div id="slot-39" class="col4"></div><!-- Wednesday -->
+						<div id="slot-40" class="col5"></div><!-- Thursday -->
+						<div id="slot-41" class="col6"></div><!-- Friday -->
+						<div id="slot-42" class="col7"></div><!-- Saturday -->
+					</div>
+					<div id="row-7"><!-- This row is different in that it will contain buttons to go back a month, ahead a month, and then back to this month -->
+						<div id="prev-month" class="month-button" onclick="return false"><a href="">Last Month</a></div>
+						<div id="this-month" class="month-button"><a href="">This Month</a></div>
+						<div id="next-month" class="month-button" onclick="return false"><a href="">Next Month</a></div>
+					</div>
+				</div>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

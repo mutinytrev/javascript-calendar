@@ -1,0 +1,67 @@
+/* Calendar Settings */
+
+	#calendar
+	{
+		width: 90%;
+		border-style: dotted;
+		border-color: #006210;
+		margin: 2% auto;
+		font-family: "Courier New", Courier, monospace;
+		font-size: .9em;
+		color: #006210;
+	}
+
+	#date
+	{
+		margin: 3px auto;
+		margin-left: 70px;
+		height: 14%;
+		width: 60%;
+	}
+
+	#month-name
+	{
+		height: 14%;
+		width: 100%;
+	}
+
+	#row-1, #row-2, #row-3, #row-4, #row-5, #row-6, #row-7, #weekday-labels
+	{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.col1, .col2, .col3, .col4, .col5, .col6, .col7
+	{
+		display: inline;
+		width: 11%;
+		padding: 1%;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+		float: left;
+	}
+
+	.month-button
+	{
+		width: 32%;
+		margin: auto;
+		text-align: center;
+		display: inline;
+		border-style: solid;
+		border-width: 2px;
+		border-color: #000000;
+		float: left;
+	}
+
+	.month-button a
+	{
+		color: #006210;
+		text-decoration: none;
+	}
+
+	.month-button:hover
+	{
+		filter: brightness(1.5);
+		transition: 0.3s;
+	}
